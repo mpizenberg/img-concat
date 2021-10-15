@@ -1,0 +1,12 @@
+[package]
+name = "img-concat"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+log = { version = "0.4.14", default-features = false } # for debug logs with -vvv
+stderrlog = { version = "0.5.1", default-features = false }
+anyhow = "1.0.38" # for error handling
+image = "0.23.14"
+seahorse = "1.1.2"
+imagesize = "0.9.0"
